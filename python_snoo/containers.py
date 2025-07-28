@@ -140,8 +140,8 @@ class BabyData(DataClassJSONMixin):
     disabledLimiter: bool
     expectedBirthDate: str
     pictures: list
-    preemie: Any  # Not sure what datatype this is yet
     settings: BabySettings
-    sex: Any  # Not sure what datatype this is yet
+    sex: str
+    preemie: Any | None = None  # Not sure what datatype this is yet & may not be supplied - boolean?
     startedUsingSnooAt: str | None = None
     updatedAt: str | None = None
