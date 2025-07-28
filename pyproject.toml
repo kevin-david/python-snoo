@@ -21,6 +21,7 @@ python = "^3.11"
 aiohttp = "*"
 freenub = "^0.1.0"
 mashumaro = "^3.15"
+python-dotenv = "^1.0.0"
 
 
 [build-system]
